@@ -1,0 +1,219 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos de encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos de contenido */
+.content {
+  margin: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #333;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+ul li a {
+  color: #333;
+  text-decoration: none;
+}
+ footer {
+      background-color: #333333;
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+      
+    }
+
+/ Estilos para dispositivos móviles /
+
+
+.hamburger-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger-icon {
+    display: block;
+  }
+  
+  ul {
+    display: none;
+  }
+  
+  ul.open {
+    display: block;
+  }
+}
+
+/* styles.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos de encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos de contenido */
+.content {
+  margin: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #333;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+ul li a {
+  color: #333;
+  text-decoration: none;
+}
+ footer {
+      background-color: #333333;
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+      
+    }
+
+@media only screen and (max-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: inline-block;
+  }
+}
+
+/ Estilos para dispositivos móviles /
+@media screen and (max-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  nav ul {
+    display: none; / Ocultar la barra de navegación /
+  }
+
+  .mobile-menu-icon {
+    display: block; / Mostrar el ícono de hamburguesa /
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+
+/ Estilos para pantallas más grandes /
+@media screen and (min-width: 601px) {
+  .hamburger-icon {
+    display: none; / Ocultar el ícono de hamburguesa */
+  }
+}
+
+   
+  
+
+
+
+
+
+   
+  
+
